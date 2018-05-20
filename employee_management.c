@@ -29,7 +29,7 @@ void main(){
 	fp=fopen(filename,"r+");
 	if(fp==NULL){
 		fp=fopen(filename,"w+");
-		if(fp=NULL){
+		if(fp==NULL){
 			printf("cannot open file\n");
 			exit(1);
 		}
