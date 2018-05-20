@@ -57,7 +57,7 @@ void main(){
 				exit(0);
 			default:
 				printf("wrong choice\n");
-				printf("press any key to continue\n");
+				printf("press enter to continue\n");
 				getchar();
 				break;
 		}
@@ -142,7 +142,7 @@ void listemployee(){
 		printf("salary:\t\t %.2f\n",emp.bsal);
 		printf("phone:\t\t %ld\n",emp.phone);
 	}
-	printf(" \n\n\t\t\t\tpress any key to continue\n");
+	printf(" \n\n\t\t\t\tpress enter to continue\n");
 	getchar();
 }
 void searchemployee(){
